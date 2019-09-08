@@ -19,3 +19,4 @@ with tf.compat.v1.Session() as sess:
     output = np.argmax(logit, 1)
     print(output,'output data')
     print(test_accuracy,'精确度')
+    print()
